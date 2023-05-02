@@ -19,11 +19,11 @@ public class Log_In {
 		//Add Email Id Of Log In Panel
 		WebElement email = driver.findElement(By.id("email"));
 		email.clear();
-		email.sendKeys("it0062");
+		email.sendKeys("");
 		// Add Pass for Log iN
 		WebElement pass = driver.findElement(By.id("password"));
 		pass.clear();
-		pass.sendKeys("##imikrof@2021");
+		pass.sendKeys("");
 		
 		WebElement login= driver.findElement(By.xpath("/html/body/section/div/div/div[3]/div/div[3]/form/div/div[3]/input"));
 		login.click();
